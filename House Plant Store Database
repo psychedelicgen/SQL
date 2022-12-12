@@ -1,0 +1,29 @@
+CREATE TABLE house_plant (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    date REAL,
+    cost INTEGER,
+    size TEXT,
+    inventory NUMERIC);
+
+INSERT INTO house_plant VALUES (1, "peace lily", "07/11/22", 20, "medium", 5);
+INSERT INTO house_plant VALUES (2, "snake plant", "07/04/22", 15, "small", 3); 
+INSERT INTO house_plant VALUES (3, "pothos brasil", "07/11/22", 20, "medium", 5);
+INSERT INTO house_plant VALUES (4, "pothos marble queen", "07/11/22", 20, "medium", 5);
+INSERT INTO house_plant VALUES (5, "pothos jade", "07/11/22", 20, "medium", 5);
+INSERT INTO house_plant VALUES (6, "monstera albo", "07/04/22", 500, "small", 1);
+INSERT INTO house_plant VALUES (7, "monstera half moon", "07/04/22", 1000, "small", 1);
+INSERT INTO house_plant VALUES (8, "monstera deliciosa", "07/04/22", 150, "large", 5);
+INSERT INTO house_plant VALUES (9, "money tree", "07/11/22", 50, "large", 3);
+INSERT INTO house_plant VALUES (10, "fiddle fig tree", "07/18/22", 40, "large", 5);
+INSERT INTO house_plant VALUES (11, "dracaena", "07/18/22", 30, "medium", 3);
+INSERT INTO house_plant VALUES (12, "anthurium", "07/18/22", 25, "medium", 2);
+INSERT INTO house_plant VALUES (13, "fern", "07/04/22", 25, "medium", 3);
+INSERT INTO house_plant VALUES (14, "tineke rubber tree", "07/18/22", 100, "large", 5);
+INSERT INTO house_plant VALUES (15, "burgundy rubber tree", "07/18/22", 100, "large", 5);
+
+SELECT * FROM house_plant ORDER BY cost ASC; 
+
+SELECT * FROM house_plant WHERE cost <50;
+
+SELECT * FROM house_plant ORDER BY date;
