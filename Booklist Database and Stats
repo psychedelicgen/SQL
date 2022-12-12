@@ -1,0 +1,21 @@
+/** Books
+The Alchemist (5)
+The Atomic HabitS (5)
+Ikigai (4)
+The Monk Who Sold His Ferrari (4)
+Tuedays With Morrie (5)
+Pillars of the Earth (3)
+Life of Pi (3)
+**/
+
+CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT INTO books VALUES (1, "The Alchemist", 5);
+INSERT INTO books VALUES (2, "The Atomic Habits", 5);
+INSERT INTO books VALUES (3, "Ikigai", 4);
+INSERT INTO books VALUES (4, "The Monk Who Sold His Ferrari", 4);
+INSERT INTO books VALUES (5, "Tuesdays With Morrie", 5);
+INSERT INTO books VALUES (6, "Pillars oftThe Earth", 3);
+INSERT INTO books VALUES (7, "Life of Pi", 3);
+
+Select * FROM books
